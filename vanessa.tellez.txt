@@ -1,0 +1,35 @@
+Hey, hey, hey! I live in this example. :)
+
+Stretch Goal Research:
+
+ While the processes learned here will set you up to be successful in most situations, 
+ they are just the tip of the iceberg in learning Git. 
+ Independantly research the following topics to learn more about Git.
+
+Research and understand what a merge conflict is and how to resolve it.
+--Merge Conflicts occur when you merge branches and have conflicting commits. 
+It could be that they contradict each other, someone edits a file while someone else deleted it.
+You have to resolve it before making the pull request. A few ways to resolve it:
+You have to manually edit and decide what commits to keep for the final merge. 
+GitHun has a conflict editor that can be used when the conflict is in the same line 
+of the same file. All other conflicts have to be resolved on the command line. 
+
+
+Reseach the Git commands pull, rebase, merge. 
+ These commands will allow you to bring in changes that other developers push 
+ to the master branch.
+git pull is a combination of git fetch and git merge. It fetches and downloads information from
+a remote repository and updates the local one so they can match. Git fetch is considered "safer"
+because it will download the remote information but not change the local repository while pull
+will retrieve and apply changes to match, which could lead to conflict. 
+Merge will combine multiple commits into one. 
+Rebase is similar to merge, where it will bring changes from one branch to another. 
+Merge is viewed more as "forward moving" while Rebase has strong history rewriting skills.
+
+Reseach the Git commands reset , revert, clean. 
+ These commands will allow you to go back and ammends previous commits you have made.
+ 
+Research and set up a Graphical User Interface (GUI) Git console.
+
+Research and setup SSH keys with Github, so that you do not need to input
+ your username/password each time you push.
